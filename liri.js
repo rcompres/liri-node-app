@@ -14,7 +14,7 @@ var userCommandOne = process.argv[2];
 var userCommandTwo = process.argv[3];
 
 function twitterTweets() {
-if (userCOmmandOne == "my-tweets") {
+if (userCommandOne == "my-tweets") {
 	var params = {
 		screen_name:'r_compres',
 		count: 20,
